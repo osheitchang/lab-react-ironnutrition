@@ -22,6 +22,51 @@
   font-size: large;
 }
 
+.food-box{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+/* General things here */
+}
+
+.food-box h2 {
+  font-weight: 500;
+}
+
+.food-box img {
+  height: 5em;
+}
+
+.food-box button {
+  color:white;
+  background-color:#2196f3;
+  border:none;
+  width:4em;
+}
+
+.info-container {
+  display: flex;
+  margin:1em;
+}
+
+.food-container{
+  display:flex;
+  margin: 1.5em;
+   border: 1px solid gray;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3em;
+}
+.cart {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
